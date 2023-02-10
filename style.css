@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 body {
-    font-family: 'Nunito', sans-serif;
-    background-color: #ff5900;
+    font-family: 'Nunito', cursive;
+    background-color: #dcd9ff;
 }  
 nav {
-    background-color:#1d1b1b;
+    background-color:#915d80;
     color:black
 } 
 nav > a {
-    color:#fff3c6;
+    color:#1e1a1d;
     text-decoration: none;
-    padding:8px 12px;
+    padding:10px 180px;
     display: inline-block;
 } 
+img {
+    border-radius: 30px;
+}
