@@ -10,9 +10,22 @@ nav {
 nav > a {
     color:#1e1a1d;
     text-decoration: none;
-    padding:10px 180px;
+    padding:10px 175px;
     display: inline-block;
 } 
 img {
     border-radius: 30px;
+} 
+#name{ 
+    text-align:center;
+ 
+
+} 
+nav> a:hover{
+    background-color:gray
+    
+}
+#ppp{
+    text-align: center
+;
 }
