@@ -31,4 +31,12 @@ nav> a:hover{
 } 
 .ep{
     text-align: center;
+} 
+form{
+    width:340px;
+    height:440px; 
+    background: #915d80;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #915d80;
+    
 }

@@ -6,10 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 
-</head>
+</head> 
+
 <body>
     <a href="aboutme.html"> About Me</a> 
 <a href="contactme.html">Contact Me</a>
-<a href="index.html">Home</a>
+<a href="index.html">Home</a> 
+
+<form
+action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+method="post">
+<h2 class="heading-contact"> CONTACT ME</h2> 
+<label>Name:</label>
+<p type="Name:"><input placeholder="John Doe" name="fullName"></input></p> 
+<br 
+<label>Email:</label>
+<p type="Email:"><input placeholder="something@gmail.com" name="email"></input></p> 
+<br
+<label>Message</label>
+<p type="Message:"><input placeholder="Your message" name="Message"><input></p>
+<input type="submit" class="button2"> 
+<input name="send-to" value="kwilliams4@brooklynsteamcenter.org" hidden>
+<div>
+    <span class="phone number"></span>347 490 1291 
+    <span class="envelope"></span>kahlilw03@gmail.com
+</div>
+</form>
+
+
 </body>
 </html>
