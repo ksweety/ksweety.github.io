@@ -38,5 +38,14 @@ form{
     background: #915d80;
     border-radius:8px;
     box-shadow:0 0 40px -10px #915d80;
-    
+
+}  
+input, textarea{ 
+    background-color: #b43489;  
+    border-radius: 8px; 
+    color: #1e1a1d;
+
+}
+#gitIcon{
+    color: #000;
 }
