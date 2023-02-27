@@ -17,26 +17,66 @@
 <form
 action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
 method="post">
-<h2 class="heading-contact"> CONTACT ME</h2> 
-<div>
-    <span id="phoneIcon" class="fa fa-phone" class="icons"></span><a href="tel:347 490 1291">Call me</a>
-    <span id="emailIcon": class="fa fa-envelope-o" class="icons"></span><a href="mailto:kwilliams4@brooklynsteamcenter.org">Email Me</a>
-    <span id="giticon" class="fa fa-github" class="icons"></span><a href="https://github.com/ksweety">Github</a> 
+<h1> Connect With Me</h1> 
+<p> To connect with me, please fill outform</p> 
+<form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post">
+
+       <div class="input-row">
+        <div class="input-group">
+            <label>Name</label>
+            <input type="text" name="Name" placeholder="Mad Monkey">
+
+       </div> 
+       <div class="input-group"> 
+        
+        <label>Email</label>
+        <input type="email" name="Subject" placeholder="monkey21@gmail.com"> 
+       </div> 
+       <div class="input-group">
+       <label>Subject</label> 
+       <input type="text" name="Subject" placeholder="Message here...">
+       </div> 
+
+
+    </div> 
     
+    <label>Message</label>
+    <textarea rows="5" placeholder="Your message"></textarea>
+    <div class="buttonhere">
+    <button>submit</button> 
+    <input name="send-to" value="kwilliams4@brooklynsteamcenter.org" hidden> 
+    </div>
+</form>
+<div class="contact-right">
+    <h3>Reach Me</h3> 
+
+    <table>
+        <tr>
+            <td>Email:</td>
+            <td>kwilliams4@brooklynsteamcenter.org</td> 
+
+        </tr> 
+        <tr>
+            <td>Phone:</td> 
+            <td>347-490-1291</td> 
+
+        </tr> 
+        <tr>
+            <td>Linkedin:</td>
+            <td>Kahlil Williams</td>
+
+            
+        </tr>
+
+
+            </td>
+        </tr>
+    </table>
 </div>
-<label>Name:</label>
-<p type="Name:"><input placeholder="John Doe" name="fullName"></input></p> 
-<br 
-<label>Email:</label>
-<p type="Email:"><input placeholder="something@gmail.com" name="email"></input></p> 
-<br
-<label>Message</label>
-<p type="Message:"><input placeholder="Your message" name="Message"><input></p>
-<input type="submit" class="button2"> 
-<input name="send-to" value="kwilliams4@brooklynsteamcenter.org" hidden>
-<div>
-    <span class="phone number"></span>347 490 1291 
-    <span class="envelope"></span>kahlilw03@gmail.com
+
+    </div>
 </div>
 </form>
 
