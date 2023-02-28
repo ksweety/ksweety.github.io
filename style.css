@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 body {
     font-family: 'Nunito', cursive;
-    background-color: #dcd9ff;
+    background-color: #dcd9ff; 
+    background-image: url("cool-background.png"); 
+    background-repeat: no-repeat; 
+    background-size: cover ;
 }  
 nav {
-    background-color:#915d80;
+    background-color:#915d80; 
+    
     color:black;
     position: sticky;
     top: 0;
@@ -119,6 +123,14 @@ tr td {
 
 
 
-
+@media screen and (max-width:1000px) { 
+    body {
+        background-color: aliceblue; 
+        width: 95%
+    }
+    
+}
+    
+}
 
 
