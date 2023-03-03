@@ -5,7 +5,8 @@ body {
     background-image: url("cool-background.png"); 
     background-repeat: no-repeat; 
     background-size: cover ; 
-    min-height: 100vh;
+    min-height: 100vh; 
+    background-color: rgba(0,0,0,0.0);
 }  
 nav {
     background-color:#915d80;  
@@ -86,7 +87,8 @@ h1 {
 } 
 
 .input-row .input-group{
-    flex: basis 45%;
+    flex: basis 45%; 
+    color: #000; 
 } 
 
 input {
@@ -108,7 +110,8 @@ textarea {
 label {
     margin-bottom: 6px;
     display:block;
-    color:#dcd9ff
+    color:#05031d 
+
 }
 
 tr td:first-child {
@@ -138,5 +141,15 @@ tr td {
 }
     
 }
+.drippy {
+    color: rgb(213, 205, 255); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif} 
+
+    .happygif {
+        float:right;
+        margin:left 12px;
+        position:left;
+    }
 
 
+ 
