@@ -10,7 +10,8 @@ body {
 }  
 nav {
     background-color:#915d80;  
-    border-radius: 25px;
+    border-radius: 25px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     color:black;
     position: sticky;
@@ -154,7 +155,7 @@ tr td {
       
     }
 nav > li > a:hover{
-    background-color: darkorchid;
+    Background-color: darkorchid;
 }
 
 
