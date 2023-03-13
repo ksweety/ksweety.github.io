@@ -157,6 +157,12 @@ tr td {
 nav > li > a:hover{
     Background-color: darkorchid;
 }
+.social-icon{
+    color: #915d80; 
+    transition: color 0.2s;
+    margin: 0 10px;
+}
+
 
 
 
