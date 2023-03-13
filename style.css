@@ -158,9 +158,10 @@ nav > li > a:hover{
     Background-color: darkorchid;
 }
 .social-icon{
-    color: #915d80; 
+    color: #05031d; 
     transition: color 0.2s;
-    margin: 0 10px;
+    margin: 0 10px; 
+    width: 35px;
 }
 
 
