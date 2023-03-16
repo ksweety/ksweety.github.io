@@ -20,9 +20,7 @@
         <a href="projects.html">Projects</a>
         <a href="https://docs.google.com/document/d/1ayLWzLkElIcUkPAPSNLXc1A4oGq_dc28Q-GRBi4eV6E/edit"> Resume </a>
     </nav>
-<form
-action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
-method="post">
+
 <h1> Connect With Me</h1> 
 <p> To connect with me, please fill out form</p> 
 <form
@@ -32,68 +30,63 @@ method="post">
        <div class="input-row">
         <div class="input-group">
             <label>Name</label>
-            <input type="text" name="Name" placeholder="Mad Monkey">
+            <input type="text" class="onepiece" name="Name" placeholder="Mad Monkey">
 
        </div> 
        <div class="input-group"> 
         
         <label>Email</label>
-        <input type="email" name="Subject" placeholder="monkey21@gmail.com"> 
+        <input type="email" class="onepiece" name="Subject" placeholder="monkey21@gmail.com"> 
        </div> 
        <div class="input-group">
        <label>Subject</label> 
-       <input type="text" name="Subject" placeholder="Message here...">
+       <input type="text" class="onepiece" name="Subject"  placeholder="Message here...">
        </div> 
 
 
     </div> 
     
     <label>Message</label>
-    <textarea rows="5" placeholder="Your message"></textarea>
+    <textarea rows="5" placeholder="Your message" class="onepiece"></textarea>
     <div class="buttonhere">
-    <button>submit</button> 
+    <button submit </button> 
     <input name="send-to" value="kwilliams4@brooklynsteamcenter.org" hidden> 
     </div>
 </form>
-<div class="contact-right">
+<div class="contact-right"> 
+</div>
     <h3>Reach Me & Click Icons Below To See Other Socials </h3> 
 
-    <table>
-        <tr>
-            <td>Email:</td>
-            <td>kwilliams4@brooklynsteamcenter.org</td> 
+    <a class="social-icon" target="_blank" href="https://github.com/ksweety">
+        <ion-icon name="logo-github"></ion-icon>  
+    </a>
 
-        </tr> 
-        <tr>
-            <td>Phone:</td> 
-            <td>347-490-1291</td> 
+    <a class="social-icon" href="https://www.facebook.com/kahlil.williams.927" target="_blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<table>
+  <tr>
+    <td>Email:</td>
+    <td>kwilliams4@brooklynsteamcenter.org</td>
+  </tr>
+  <tr>
+    <td>Phone:</td>
+    <td>347-490-1291</td>
+  </tr>
+  <tr>
+    <td>Linkedin: Kahlil Williams</td>
+  </tr>
+</table>
 
-        </tr> 
-        <tr>
-            <td>Linkedin:</td>
-            <td>Kahlil Williams</td> 
-            <a class="social-icon" target="_blank" href="https://github.com/ksweety">
-                <ion-icon name="logo-github"></ion-icon>
-            </a> 
-            <a class="social-icon" target="_blank" href="https://www.facebook.com/kahlil.williams.927">
-                <ion-icon name="logo-facebook"></ion-icon>
-            </a>
             
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-            
-        </tr>
+    
 
 
-            </td>
-        </tr>
-    </table>
-</div>
+          
+  
 
-    </div>
-</div>
-</form>
 
 </body>
 </html>

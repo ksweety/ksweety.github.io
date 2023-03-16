@@ -98,7 +98,11 @@ input {
     border-bottom: 1px solid #915d80; 
     outline: none; 
     padding-bottom: 5px;
-}  
+    color:#000
+} 
+::-webkit-input-placeholder {
+    color:#000;
+}
 textarea {
     width: 100%; 
     border: 1px solid #915d80; 
@@ -162,8 +166,13 @@ nav > li > a:hover{
     transition: color 0.2s;
     margin:  10px; 
     width: 35px;
+} 
+.onepiece {
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    background-color:#915d80;
+    font-weight: 900;
 }
-
 
 
 
