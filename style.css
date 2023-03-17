@@ -170,10 +170,10 @@ nav > li > a:hover{
 .onepiece {
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif; 
-    background-color:#915d80;
-    font-weight: 900;
+    background-color:plum;
+    font-weight: 900; 
+    resize: horizontal;
 }
-
 
 
  
