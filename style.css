@@ -179,5 +179,9 @@ nav > li > a:hover{
     float: right;
 }
 
-
+@media screen and (max-width:400x) {
+    .nav {
+        position: sticky;
+    }
+}
  
