@@ -14,7 +14,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     color:black;
-    position: sticky;
+    position:fixed;
     top: 0;
 } 
 nav > a {
