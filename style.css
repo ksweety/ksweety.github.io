@@ -173,6 +173,10 @@ nav > li > a:hover{
     background-color:plum;
     font-weight: 900; 
     resize: horizontal;
+} 
+
+.right {
+    float: right;
 }
 
 
