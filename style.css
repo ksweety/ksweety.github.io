@@ -89,7 +89,7 @@ h1 {
 
 .input-row .input-group{
     flex: basis 45%; 
-    color: #000; 
+    color: #1e1a1d; 
 } 
 
 input {
@@ -98,10 +98,10 @@ input {
     border-bottom: 1px solid #915d80; 
     outline: none; 
     padding-bottom: 5px;
-    color:#000
+    color:#1e1a1d
 } 
 ::-webkit-input-placeholder {
-    color:#000;
+    color:#1e1a1d;
 }
 textarea {
     width: 100%; 
