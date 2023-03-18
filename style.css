@@ -14,7 +14,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     color:black;
-    position:fixed;
+    position:sticky;
     top: 0;
 } 
 nav > a {
@@ -179,9 +179,4 @@ nav > li > a:hover{
     float: right;
 }
 
-@media screen and (max-width:400x) {
-    .nav {
-        position: sticky;
-    }
-}
- 
+
